@@ -143,28 +143,6 @@ python image_region_selector.py /path/to/image/directory
 - 对于盲反演问题，建议使用`--use_demo_params`模式，根据显微镜或成像系统本身的性质制定数值
 - 可以通过调整`sparse_iter`参数平衡速度和质量
 
-
-## 许可证
-
-本项目基于 MIT 许可证开源。详见 [LICENSE](LICENSE) 文件。
-
-## 引用
-
-如果您在研究中使用了本项目，请引用以下论文：
-
-```bibtex
-@article{zhao2021sparse,
-  title={Sparse deconvolution improves the resolution of live-cell super-resolution fluorescence microscopy},
-  author={Zhao, Weisong and Zhao, Siwei and Li, Lei and Ding, Wei and Zhang, Yiming and Wang, Rui and Xu, Zhen-Li and Zhang, Yujie and Tian, Zhi-Lin and Xu, Ke and others},
-  journal={Nature Biotechnology},
-  volume={39},
-  number={10},
-  pages={1263--1273},
-  year={2021},
-  publisher={Nature Publishing Group}
-}
-```
-
 ## 相关链接
 
 - [原始MATLAB实现](https://github.com/WeisongZhao/Sparse-SIM)
